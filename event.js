@@ -10,7 +10,7 @@ class Events {
   async initializeMongoDB() {
     try {
       const mongoClient = new MongoClient(
-        "mongodb+srv://event:event@cluster0.cvwzuh0.mongodb.net/?retryWrites=true&w=majority",
+        "mongourl",
         {
           useNewUrlParser: true,
           useUnifiedTopology: true,
